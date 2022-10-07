@@ -46,19 +46,19 @@ button.addEventListener("click", function callBack() {
   if (iconosCambio === "♦") {
     icono1.style.color = "blue";
     icono2.style.color = "blue";
-    color.style.background = "blue";
+    color.style.background = "red";
   } else if (iconosCambio === "♥") {
     icono1.style.color = "red";
     icono2.style.color = "red";
-    color.style.background = "red";
+    color.style.background = "blue";
   } else if (iconosCambio === "♣") {
     icono1.style.color = "pink";
     icono2.style.color = "pink";
-    color.style.background = "pink";
+    color.style.background = "orange";
   } else if (iconosCambio === "♠") {
     icono1.style.color = "orange";
     icono2.style.color = "orange";
-    color.style.background = "orange";
+    color.style.background = "pink";
   }
 });
 callBack();
